@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "L76L-M33")(type "KiCad")(uri "${KIPRJMOD}/LIB/L76L-M33/L76L-M33.kicad_sym")(options "")(descr ""))
+)

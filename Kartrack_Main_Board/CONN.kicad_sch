@@ -771,6 +771,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:Arduino_UNO_R3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1943,6 +2129,10 @@
 		(uuid "775ea082-6be4-415d-9d5c-d79aff7c1956")
 	)
 	(no_connect
+		(at 191.77 66.04)
+		(uuid "1342b37f-bb35-462a-9d39-d591ecc6d8e5")
+	)
+	(no_connect
 		(at 71.12 95.25)
 		(uuid "2c50961b-7d8d-455e-8b8d-85cafabad444")
 	)
@@ -2000,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 57.15) (xy 186.69 66.04)
+			(xy 186.69 54.61) (xy 186.69 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2100,6 +2290,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 63.5) (xy 186.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2396efc-f218-4dba-8651-c8b4ce6c244d")
+	)
+	(wire
+		(pts
 			(xy 71.12 74.93) (xy 72.39 74.93)
 		)
 		(stroke
@@ -2110,16 +2310,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 66.04) (xy 191.77 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cab6015f-35b0-42f4-9835-8822c170e552")
-	)
-	(wire
-		(pts
 			(xy 71.12 80.01) (xy 77.47 80.01)
 		)
 		(stroke
@@ -2127,16 +2317,6 @@
 			(type default)
 		)
 		(uuid "cfbd49b2-f5a8-48cb-be21-0c366cbeac1a")
-	)
-	(wire
-		(pts
-			(xy 190.5 66.04) (xy 190.5 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e88f4297-8e60-4478-8b64-696e35fe2160")
 	)
 	(hierarchical_label "PI1{slash}LD1"
 		(shape input)
@@ -2215,7 +2395,7 @@
 		)
 		(uuid "3b360308-3db7-4423-8133-ae156e319123")
 	)
-	(hierarchical_label "PC6"
+	(hierarchical_label "PC6_TX"
 		(shape input)
 		(at 176.53 78.74 180)
 		(effects
@@ -2369,7 +2549,7 @@
 		)
 		(uuid "e6d177cb-aca4-4d9c-8c86-d8bc304942a0")
 	)
-	(hierarchical_label "PC7"
+	(hierarchical_label "PC7_RX"
 		(shape input)
 		(at 176.53 76.2 180)
 		(effects
@@ -2936,74 +3116,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 190.5 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3df3498-1ab0-4c78-b4d8-d8609d11c7ed")
-		(property "Reference" "#PWR03"
-			(at 190.5 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 190.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 190.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bc0e5be-34d4-4dc0-a36b-979c64d14054")
-		)
-		(instances
-			(project "Kartrack_Main_Board"
-				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/85ccdc23-ae17-49a7-b6f3-41d41d1b2e3d"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
-		(at 186.69 57.15 0)
+		(at 186.69 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3012,7 +3126,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc0db0a6-9821-4d29-bb57-f6c2692de174")
 		(property "Reference" "#PWR04"
-			(at 186.69 60.96 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3020,8 +3134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
-			(at 186.69 52.07 0)
+		(property "Value" "VEXT_DISCO"
+			(at 186.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,7 +3143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 57.15 0)
+			(at 186.69 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 57.15 0)
+			(at 186.69 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3161,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 186.69 57.15 0)
+			(at 186.69 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,6 +3510,75 @@
 			(project ""
 				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/85ccdc23-ae17-49a7-b6f3-41d41d1b2e3d"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 186.69 59.69 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1f5f3cd-bd28-48ec-83fa-1a1bdbcde9b7")
+		(property "Reference" "JP1"
+			(at 173.736 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 159.512 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3fd55db5-5eb7-4b7e-a379-0bc7d48fc822")
+		)
+		(pin "1"
+			(uuid "3c6d559d-2390-4ceb-a896-c5e00c927178")
+		)
+		(instances
+			(project ""
+				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/85ccdc23-ae17-49a7-b6f3-41d41d1b2e3d"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
