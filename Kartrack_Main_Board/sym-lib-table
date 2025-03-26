@@ -3,4 +3,5 @@
   (lib (name "L76L-M33")(type "KiCad")(uri "${KIPRJMOD}/LIB/L76L-M33/L76L-M33.kicad_sym")(options "")(descr ""))
   (lib (name "ICM-45605")(type "KiCad")(uri "${KIPRJMOD}/LIB/ICM-45605/ICM-45605.kicad_sym")(options "")(descr ""))
   (lib (name "RM126x")(type "KiCad")(uri "${KIPRJMOD}/LIB/RM126X PCB footprint (DXF and Altium format)/RM126x.kicad_sym")(options "")(descr ""))
+  (lib (name "MIC3172YM")(type "KiCad")(uri "${KIPRJMOD}/LIB/MIC3172YM/MIC3172YM.kicad_sym")(options "")(descr ""))
 )

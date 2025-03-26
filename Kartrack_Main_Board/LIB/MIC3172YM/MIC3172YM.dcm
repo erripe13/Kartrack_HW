@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC3172YM
+D Micrel MIC3172YM, PWM Current Mode Controller, 1.25 A, 112 kHz, 2.7  40 V, 8-Pin SOIC
+K
+F https://componentsearchengine.com/Datasheets/2/MIC3172YM.pdf
+$ENDCMP
+#
+#End Doc Library

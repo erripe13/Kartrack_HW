@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MIC3172YM
+#/532627/886249/2.50/8/3/Integrated Circuit
+DEF MIC3172YM IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "MIC3172YM" 1350 200 50 H V L CNN
+F2 "SOIC127P599X173-8N" 1350 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/MIC3172YM.pdf" 1350 0 50 H I L CNN
+F4 "Micrel MIC3172YM, PWM Current Mode Controller, 1.25 A, 112 kHz, 2.7  40 V, 8-Pin SOIC" 1350 -100 50 H I L CNN "Description"
+F5 "1.73" 1350 -200 50 H I L CNN "Height"
+F6 "Microchip" 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MIC3172YM" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "998-MIC3172YM" 1350 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=998-MIC3172YM" 1350 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MIC3172YM" 1350 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mic3172ym/microchip-technology" 1350 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X S_GND 1 0 0 200 R 50 50 0 0 P
+X COMP 2 0 -100 200 R 50 50 0 0 P
+X FB 3 0 -200 200 R 50 50 0 0 P
+X ~SYNC~/EN 4 0 -300 200 R 50 50 0 0 P
+X P_GND_1 8 1500 0 200 L 50 50 0 0 P
+X VSW 7 1500 -100 200 L 50 50 0 0 P
+X P_GND_2 6 1500 -200 200 L 50 50 0 0 P
+X VIN 5 1500 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
