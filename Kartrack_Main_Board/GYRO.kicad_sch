@@ -1081,7 +1081,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 181.61 81.28 90)
 			(effects
 				(font
@@ -1570,7 +1570,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100nF"
 			(at 181.61 71.12 90)
 			(effects
 				(font

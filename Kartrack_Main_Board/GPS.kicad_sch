@@ -314,156 +314,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Zener"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -860,6 +710,173 @@
 					(at 0 -2.54 90)
 					(length 0.762)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148WS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2123,13 +2140,13 @@
 		(uuid "370e61bc-604d-4500-b107-311b85104213")
 	)
 	(junction
-		(at 76.2 102.87)
+		(at 101.6 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a1a01f9-0f59-456c-9d7a-fa911bf82a88")
 	)
 	(junction
-		(at 62.23 102.87)
+		(at 87.63 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cd5d2fa-3a74-444e-bd43-2ecc33aa2840")
@@ -2256,7 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 113.03) (xy 76.2 115.57)
+			(xy 101.6 113.03) (xy 101.6 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2336,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 102.87) (xy 62.23 102.87)
+			(xy 54.61 102.87) (xy 67.31 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2416,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 102.87) (xy 76.2 105.41)
+			(xy 101.6 102.87) (xy 101.6 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 102.87) (xy 81.28 102.87)
+			(xy 101.6 102.87) (xy 106.68 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2533,6 +2550,16 @@
 			(type default)
 		)
 		(uuid "87e32ace-0644-4ffa-8a25-49019deb10a6")
+	)
+	(wire
+		(pts
+			(xy 74.93 102.87) (xy 87.63 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd5cf06-4b9b-49d4-b0e6-db248bff4bff")
 	)
 	(wire
 		(pts
@@ -2666,7 +2693,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 105.41) (xy 62.23 102.87)
+			(xy 87.63 105.41) (xy 87.63 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2676,7 +2703,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 113.03) (xy 62.23 115.57)
+			(xy 87.63 113.03) (xy 87.63 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2713,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 83.82) (xy 226.06 83.82)
+			(xy 203.2 83.82) (xy 210.82 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2696,7 +2723,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 102.87) (xy 76.2 102.87)
+			(xy 87.63 102.87) (xy 101.6 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2746,6 +2773,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 83.82) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca8ede2-0340-4427-b0af-b1be010fd464")
+	)
+	(wire
+		(pts
 			(xy 203.2 73.66) (xy 203.2 78.74)
 		)
 		(stroke
@@ -2775,7 +2812,7 @@
 		(uuid "2c08df8b-6430-4afd-b1ed-3c29a1f65b2c")
 	)
 	(label "RF_IN"
-		(at 81.28 102.87 0)
+		(at 106.68 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3040,7 +3077,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 115.57 0)
+		(at 101.6 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3048,7 +3085,7 @@
 		(dnp no)
 		(uuid "10852bb6-351a-409c-b79a-fabf09219abd")
 		(property "Reference" "#PWR026"
-			(at 76.2 121.92 0)
+			(at 101.6 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +3094,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 119.634 0)
+			(at 101.6 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 115.57 0)
+			(at 101.6 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 115.57 0)
+			(at 101.6 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3120,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 115.57 0)
+			(at 101.6 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metri"
 			(at 208.28 99.06 0)
 			(effects
 				(font
@@ -3231,6 +3268,74 @@
 			(project "Kartrack_Main_Board"
 				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/f4057792-7e82-430d-87ae-79f44558fd95"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 213.36 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cc71d2e-e10c-49df-967f-f82aec62affa")
+		(property "Reference" "R22"
+			(at 213.36 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 213.36 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metri"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acd2b905-473d-4cdb-a3ae-e22f785aed1b")
+		)
+		(pin "2"
+			(uuid "4ab46dae-f78d-46f5-85c5-b14667dfd8a6")
+		)
+		(instances
+			(project "Kartrack_Main_Board"
+				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/f4057792-7e82-430d-87ae-79f44558fd95"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3398,7 +3503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metri"
 			(at 208.28 101.6 0)
 			(effects
 				(font
@@ -3608,7 +3713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metri"
 			(at 38.862 40.64 90)
 			(effects
 				(font
@@ -3678,7 +3783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metri"
 			(at 117.348 40.64 90)
 			(effects
 				(font
@@ -3748,7 +3853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metri"
 			(at 38.862 50.8 90)
 			(effects
 				(font
@@ -4186,74 +4291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 86.36 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68e1d97f-c9c0-4f26-9249-d31c6f07bf22")
-		(property "Reference" "D1"
-			(at 86.36 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 86.36 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 86.36 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "953a3e6e-f6ad-494f-8f03-b001f6a37c0e")
-		)
-		(pin "2"
-			(uuid "8cd0975d-36d1-4a13-9fa8-c030db8857e8")
-		)
-		(instances
-			(project ""
-				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/f4057792-7e82-430d-87ae-79f44558fd95"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 40.64 60.96 0)
 		(unit 1)
@@ -4281,7 +4318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metri"
 			(at 38.862 60.96 90)
 			(effects
 				(font
@@ -4391,7 +4428,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 109.22 0)
+		(at 101.6 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4400,7 +4437,7 @@
 		(fields_autoplaced yes)
 		(uuid "828fe68d-f670-44bd-9fa9-8370cb734312")
 		(property "Reference" "C6"
-			(at 80.01 107.9499 0)
+			(at 105.41 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4446,7 @@
 			)
 		)
 		(property "Value" "15pF"
-			(at 80.01 110.4899 0)
+			(at 105.41 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,8 +4454,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 77.1652 113.03 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 102.5652 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4473,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metri"
 			(at 106.68 38.608 90)
 			(effects
 				(font
@@ -4624,7 +4661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 54.61 97.79 0)
 			(effects
 				(font
@@ -4668,7 +4705,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 115.57 0)
+		(at 87.63 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4676,7 +4713,7 @@
 		(dnp no)
 		(uuid "9413f6f2-f622-41d5-88dc-a53b52505890")
 		(property "Reference" "#PWR025"
-			(at 62.23 121.92 0)
+			(at 87.63 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +4722,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 119.634 0)
+			(at 87.63 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4693,7 +4730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 115.57 0)
+			(at 87.63 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4702,7 +4739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 115.57 0)
+			(at 87.63 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +4748,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 115.57 0)
+			(at 87.63 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4816,7 +4853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 99.06 69.8499 0)
 			(effects
 				(font
@@ -4825,7 +4862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.9048 72.39 0)
 			(effects
 				(font
@@ -5001,7 +5038,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 62.23 109.22 0)
+		(at 87.63 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5010,7 +5047,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3c8b4b7-51cf-4e4a-a5ab-e73e776dd3a1")
 		(property "Reference" "C5"
-			(at 66.04 107.9499 0)
+			(at 91.44 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5019,7 +5056,7 @@
 			)
 		)
 		(property "Value" "15pF"
-			(at 66.04 110.4899 0)
+			(at 91.44 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,8 +5064,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.1952 113.03 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 88.5952 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5074,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 109.22 0)
+			(at 87.63 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +5083,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 109.22 0)
+			(at 87.63 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,6 +5449,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 86.36 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de6d7a24-ffb6-42ae-ab08-921594e1e4b0")
+		(property "Reference" "D1"
+			(at 86.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 86.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 86.36 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6103514d-3ae5-4078-ad8e-071395d26cd2")
+		)
+		(pin "2"
+			(uuid "12016674-714f-4be0-bdbd-6012982d7042")
+		)
+		(instances
+			(project ""
+				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/f4057792-7e82-430d-87ae-79f44558fd95"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 88.9 76.2 270)
 		(unit 1)
@@ -5497,7 +5620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 111.76 69.8499 0)
 			(effects
 				(font
@@ -5506,7 +5629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 108.9152 72.39 0)
 			(effects
 				(font
@@ -5574,7 +5697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metri"
 			(at 96.52 38.608 90)
 			(effects
 				(font
@@ -5611,6 +5734,74 @@
 			(project "Kartrack_Main_Board"
 				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/f4057792-7e82-430d-87ae-79f44558fd95"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 71.12 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f1d09f-f818-4039-b3be-6c8fe3d9d183")
+		(property "Reference" "C11"
+			(at 71.12 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 71.12 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 74.93 101.9048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 71.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f8f35b8-448b-4912-add1-09bc419c1517")
+		)
+		(pin "2"
+			(uuid "fed66512-a314-40ec-8fef-0cb8dc46ae06")
+		)
+		(instances
+			(project "Kartrack_Main_Board"
+				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/f4057792-7e82-430d-87ae-79f44558fd95"
+					(reference "C11")
 					(unit 1)
 				)
 			)
