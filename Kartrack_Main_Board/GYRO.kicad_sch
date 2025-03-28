@@ -1223,7 +1223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICM-42605:XDCR_ICM-42605"
+		(property "Footprint" "ICM-45605:IC_ICM-45605"
 			(at 139.7 95.25 0)
 			(effects
 				(font
