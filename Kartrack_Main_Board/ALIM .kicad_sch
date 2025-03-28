@@ -5322,7 +5322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P599X173-8N"
+		(property "Footprint" "MIC3172:SOIC127P599X173-8N"
 			(at 215.9 166.04 0)
 			(effects
 				(font
