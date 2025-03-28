@@ -47,6 +47,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 106.68) (xy 241.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb8ede7-d281-4ca1-a69b-19362ca8938e")
+	)
+	(wire
+		(pts
 			(xy 210.82 27.94) (xy 210.82 63.5)
 		)
 		(stroke
@@ -733,16 +743,6 @@
 				(justify left)
 			)
 		)
-		(pin "NRESET" input
-			(at 269.24 83.82 0)
-			(uuid "64cefc7d-2f61-4912-9058-cdf5451f47bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PB9_SDA" input
 			(at 241.3 96.52 180)
 			(uuid "d0166a00-d603-42a2-86f2-437f11b4c01a")
@@ -816,6 +816,16 @@
 		(pin "PB4" input
 			(at 241.3 83.82 180)
 			(uuid "5a4f7c89-1c86-4a6e-a2bd-e0d7935d3610")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PF6_STBY_GPS" input
+			(at 241.3 106.68 180)
+			(uuid "3e504c1b-ce2c-4ad5-94d0-1b3bb5dd9fe0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -920,6 +930,16 @@
 		(pin "TX_GSP" input
 			(at 140.97 111.76 0)
 			(uuid "755d6999-0953-4c71-95d1-557797fe7507")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STBY_GPS" input
+			(at 140.97 106.68 0)
+			(uuid "8b61f7ef-f49c-4edd-9429-68583d5447ef")
 			(effects
 				(font
 					(size 1.27 1.27)

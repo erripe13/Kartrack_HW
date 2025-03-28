@@ -795,6 +795,10 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 138.43 106.68)
+		(uuid "e99db52a-4f4c-4f1f-a764-78a1039d350e")
+	)
 	(wire
 		(pts
 			(xy 113.03 96.52) (xy 118.11 96.52)
@@ -959,17 +963,6 @@
 			(justify left)
 		)
 		(uuid "1f457754-e495-4eb1-8737-4b799c5b1808")
-	)
-	(hierarchical_label "DIO5"
-		(shape input)
-		(at 138.43 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "33eb39cf-72ec-47c0-a1fd-eac5fcb5da3b")
 	)
 	(hierarchical_label "DIO0"
 		(shape input)
@@ -1202,6 +1195,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c148d26-106f-4253-bfc5-6c2ad83c72f7")
 		)
@@ -1270,6 +1271,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
