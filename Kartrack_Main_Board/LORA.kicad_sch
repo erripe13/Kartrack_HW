@@ -831,16 +831,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 73.66) (xy 92.71 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "331f4e57-3660-4d1a-b913-4cdc22c3add2")
-	)
-	(wire
-		(pts
 			(xy 128.27 73.66) (xy 128.27 81.28)
 		)
 		(stroke
@@ -891,13 +881,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 106.68) (xy 118.11 106.68)
+			(xy 114.3 106.68) (xy 118.11 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3ca3382-46b1-41ad-a397-d05b0c505635")
+		(uuid "e059410e-f3b5-44d4-a349-6464abf8777e")
 	)
 	(wire
 		(pts
@@ -975,6 +965,17 @@
 		)
 		(uuid "4c2b9adb-73d6-49ea-a73d-89d8af6d6dc4")
 	)
+	(hierarchical_label "RST"
+		(shape input)
+		(at 114.3 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50aece7e-a597-4ebf-a830-7d830f4dc1bf")
+	)
 	(hierarchical_label "MOSI"
 		(shape input)
 		(at 113.03 93.98 180)
@@ -1007,72 +1008,6 @@
 			(justify right)
 		)
 		(uuid "98aa7781-e54f-412a-92de-83654b7173ac")
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 92.71 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1eba68bb-c03f-4b76-b1ff-253f0201e4e8")
-		(property "Reference" "#PWR031"
-			(at 92.71 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 92.71 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 92.71 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8947cec0-4a1e-4a83-babd-4b2ff58edc99")
-		)
-		(instances
-			(project ""
-				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/54cc80aa-596a-48a9-8277-047403a58fc0"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1168,7 +1103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
 			(at 160.02 82.55 0)
 			(effects
 				(font

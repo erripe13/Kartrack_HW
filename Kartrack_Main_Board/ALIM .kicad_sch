@@ -6096,7 +6096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_MPD_BH-18650-PC2"
 			(at 212.09 129.54 0)
 			(effects
 				(font
@@ -6174,7 +6174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 261.3152 82.55 0)
 			(effects
 				(font
@@ -6252,7 +6252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_MPD_BH-18650-PC2"
 			(at 238.76 129.54 0)
 			(effects
 				(font
@@ -6407,7 +6407,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5822"
+		(property "Value" "STPS0520Z"
 			(at 232.7275 67.31 0)
 			(effects
 				(font
@@ -6415,7 +6415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 232.41 66.675 0)
 			(effects
 				(font

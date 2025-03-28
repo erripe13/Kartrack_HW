@@ -4979,7 +4979,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
 			(at 40.64 102.87 0)
 			(effects
 				(font
@@ -5744,13 +5744,13 @@
 		(at 123.19 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dadd4228-ad78-48ec-b91b-60a4bad48214")
 		(property "Reference" "Q1"
-			(at 128.27 35.5599 0)
+			(at 128.27 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,8 +5758,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S8050"
-			(at 128.27 38.0999 0)
+		(property "Value" "RE1C"
+			(at 128.27 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5767,8 +5767,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 38.735 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
+			(at 128.27 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)

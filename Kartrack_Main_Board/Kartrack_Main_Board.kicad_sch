@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 147.32 50.8) (xy 187.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00437bdd-da46-4bf3-a3b3-22f0a71e0aa0")
+	)
+	(wire
+		(pts
 			(xy 140.97 111.76) (xy 241.3 111.76)
 		)
 		(stroke
@@ -54,6 +64,16 @@
 			(type default)
 		)
 		(uuid "0eb8ede7-d281-4ca1-a69b-19362ca8938e")
+	)
+	(wire
+		(pts
+			(xy 187.96 50.8) (xy 187.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12aa1828-1561-4170-ac25-f4bb47979a01")
 	)
 	(wire
 		(pts
@@ -274,6 +294,16 @@
 			(type default)
 		)
 		(uuid "84a8914c-2397-4156-bd53-5cb9d1da7635")
+	)
+	(wire
+		(pts
+			(xy 187.96 86.36) (xy 241.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9304e973-5ead-42b0-b43c-bf8ad25f76e7")
 	)
 	(wire
 		(pts
@@ -542,6 +572,16 @@
 		(pin "DIO2" input
 			(at 147.32 43.18 0)
 			(uuid "59f5990f-76bf-4f3a-8b93-cd45ab59837b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RST" input
+			(at 147.32 50.8 0)
+			(uuid "0fd8c503-5dec-4dc5-a70e-758eb04e302c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,6 +866,16 @@
 		(pin "PF6_STBY_GPS" input
 			(at 241.3 106.68 180)
 			(uuid "3e504c1b-ce2c-4ad5-94d0-1b3bb5dd9fe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PF8_LORA_RST" input
+			(at 241.3 86.36 180)
+			(uuid "69389614-7f33-4eec-8654-4643bd3dd649")
 			(effects
 				(font
 					(size 1.27 1.27)

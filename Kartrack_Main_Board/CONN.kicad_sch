@@ -2487,10 +2487,6 @@
 		(uuid "8d90cbbf-19c4-4c30-b5c3-aa4f03e3004e")
 	)
 	(no_connect
-		(at 201.93 99.06)
-		(uuid "96babd22-4d2b-45c1-8ec2-457702739058")
-	)
-	(no_connect
 		(at 71.12 92.71)
 		(uuid "aa54e6f6-8220-48e4-a7f0-c66963fa2739")
 	)
@@ -3050,6 +3046,17 @@
 			(justify left)
 		)
 		(uuid "904af385-91e0-4fd0-8afb-ddfec5990e85")
+	)
+	(hierarchical_label "PF8_LORA_RST"
+		(shape input)
+		(at 201.93 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "961c8baf-1f53-4ec2-9edf-65289860b1a8")
 	)
 	(hierarchical_label "PA8"
 		(shape input)
@@ -5262,7 +5269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal"
 			(at 59.69 90.17 0)
 			(effects
 				(font
