@@ -2318,7 +2318,7 @@
 		)
 		(uuid "cfbd49b2-f5a8-48cb-be21-0c366cbeac1a")
 	)
-	(hierarchical_label "PI1{slash}LD1"
+	(hierarchical_label "PI1_SPI2_SCK"
 		(shape input)
 		(at 176.53 109.22 180)
 		(effects
@@ -2340,7 +2340,7 @@
 		)
 		(uuid "08cead03-86f2-45d7-b76b-63675bd32f0e")
 	)
-	(hierarchical_label "PB8"
+	(hierarchical_label "PB8_SCL"
 		(shape input)
 		(at 201.93 111.76 0)
 		(effects
@@ -2362,7 +2362,7 @@
 		)
 		(uuid "1658cb24-89e3-4498-91ff-7fc00031ae67")
 	)
-	(hierarchical_label "PIO"
+	(hierarchical_label "PIO_SPI2_NSS"
 		(shape input)
 		(at 176.53 88.9 180)
 		(effects
@@ -2483,7 +2483,7 @@
 		)
 		(uuid "9eea9de4-77d6-4645-b9be-e8df75a22548")
 	)
-	(hierarchical_label "PB15"
+	(hierarchical_label "PB15_SPI2_MOSI"
 		(shape input)
 		(at 176.53 104.14 180)
 		(effects
@@ -2538,7 +2538,7 @@
 		)
 		(uuid "da149d43-755d-4a28-a960-b7f21cf565a1")
 	)
-	(hierarchical_label "PB14"
+	(hierarchical_label "PB14_SPI2_MISO"
 		(shape input)
 		(at 176.53 106.68 180)
 		(effects
@@ -2571,7 +2571,7 @@
 		)
 		(uuid "ef6feca7-0a5a-4b3f-94af-26b1a0599fad")
 	)
-	(hierarchical_label "PB9"
+	(hierarchical_label "PB9_SDA"
 		(shape input)
 		(at 201.93 109.22 0)
 		(effects

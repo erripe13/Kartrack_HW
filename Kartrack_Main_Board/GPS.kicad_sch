@@ -750,6 +750,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -2169,6 +2296,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 101.6) (xy 210.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2d12a1-f6b1-4b96-b59c-47cddee54efa")
+	)
+	(wire
+		(pts
 			(xy 40.64 55.88) (xy 40.64 57.15)
 		)
 		(stroke
@@ -2206,6 +2343,16 @@
 			(type default)
 		)
 		(uuid "483ff5f7-21a8-42a3-a2c5-fa1f4bb48dea")
+	)
+	(wire
+		(pts
+			(xy 205.74 101.6) (xy 203.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487c5a78-7bd9-45e5-b3b9-e7f64df04446")
 	)
 	(wire
 		(pts
@@ -2336,6 +2483,16 @@
 			(type default)
 		)
 		(uuid "6b8258b0-8d9b-4a14-8ee3-b434cce54075")
+	)
+	(wire
+		(pts
+			(xy 214.63 99.06) (xy 210.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca9c6f9-6fa6-4d9a-b505-ca043bc649c6")
 	)
 	(wire
 		(pts
@@ -2486,6 +2643,16 @@
 			(type default)
 		)
 		(uuid "b0734e39-9ed7-46c1-b533-cac96136651f")
+	)
+	(wire
+		(pts
+			(xy 205.74 99.06) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a364d6-3d6f-4b30-a1a2-3c57c8c3ba19")
 	)
 	(wire
 		(pts
@@ -2649,7 +2816,7 @@
 	)
 	(hierarchical_label "TX_GSP"
 		(shape input)
-		(at 203.2 101.6 0)
+		(at 214.63 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2660,7 +2827,7 @@
 	)
 	(hierarchical_label "RX_GPS"
 		(shape input)
-		(at 203.2 99.06 0)
+		(at 214.63 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2937,6 +3104,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 208.28 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "115ebd62-ba82-42de-8709-1db4a76c427b")
+		(property "Reference" "R17"
+			(at 208.28 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 208.28 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 208.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c151663-3193-4a5b-bbcc-3edea755dc84")
+		)
+		(pin "2"
+			(uuid "bb70aefb-fc41-4108-972b-4db88a679a00")
+		)
+		(instances
+			(project ""
+				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/f4057792-7e82-430d-87ae-79f44558fd95"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 40.64 115.57 0)
 		(unit 1)
@@ -3133,6 +3368,73 @@
 			(project "Kartrack_Main_Board"
 				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/f4057792-7e82-430d-87ae-79f44558fd95"
 					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 208.28 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3aa0ed81-6422-46b8-b2bf-9b13ea3e91dd")
+		(property "Reference" "R18"
+			(at 208.28 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 208.28 103.632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f5217e0-1d17-493f-ba79-ea7d953fcd88")
+		)
+		(pin "2"
+			(uuid "ef0bfb8f-298b-43d7-bc53-d820a0f16417")
+		)
+		(instances
+			(project "Kartrack_Main_Board"
+				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/f4057792-7e82-430d-87ae-79f44558fd95"
+					(reference "R18")
 					(unit 1)
 				)
 			)

@@ -795,30 +795,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(no_connect
-		(at 138.43 99.06)
-		(uuid "2dae7a87-5019-41ec-b614-353c4e219c30")
-	)
-	(no_connect
-		(at 138.43 93.98)
-		(uuid "63414152-337a-41a0-9faf-f73b4082c1eb")
-	)
-	(no_connect
-		(at 138.43 96.52)
-		(uuid "b486b4a3-3d87-4e61-b82a-66e97f4fdb3c")
-	)
-	(no_connect
-		(at 138.43 104.14)
-		(uuid "bfc57d5d-5f50-4048-9d32-868f57b1497f")
-	)
-	(no_connect
-		(at 138.43 101.6)
-		(uuid "cde60542-4e3d-4c13-be67-48eb87a39572")
-	)
-	(no_connect
-		(at 138.43 106.68)
-		(uuid "de3c6a7a-6ebe-4d3b-81de-922bbaee8457")
-	)
 	(wire
 		(pts
 			(xy 113.03 96.52) (xy 118.11 96.52)
@@ -929,6 +905,17 @@
 		)
 		(uuid "e4801217-8106-4837-bd31-cec459e1bfbb")
 	)
+	(hierarchical_label "DIO2"
+		(shape input)
+		(at 138.43 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1431767f-bdd7-4563-8ffe-1cefd752e866")
+	)
 	(hierarchical_label "{slash}NSS"
 		(shape input)
 		(at 113.03 101.6 180)
@@ -939,6 +926,17 @@
 			(justify right)
 		)
 		(uuid "17575117-37e4-4d98-a091-da6f1926c55d")
+	)
+	(hierarchical_label "DIO1"
+		(shape input)
+		(at 138.43 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17cd5d96-0a59-47c4-8538-b082c3a408c3")
 	)
 	(hierarchical_label "MISO"
 		(shape input)
@@ -951,6 +949,39 @@
 		)
 		(uuid "19906c39-a3c1-4129-ba83-d4edb7a70c66")
 	)
+	(hierarchical_label "DIO4"
+		(shape input)
+		(at 138.43 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f457754-e495-4eb1-8737-4b799c5b1808")
+	)
+	(hierarchical_label "DIO5"
+		(shape input)
+		(at 138.43 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33eb39cf-72ec-47c0-a1fd-eac5fcb5da3b")
+	)
+	(hierarchical_label "DIO0"
+		(shape input)
+		(at 138.43 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c2b9adb-73d6-49ea-a73d-89d8af6d6dc4")
+	)
 	(hierarchical_label "MOSI"
 		(shape input)
 		(at 113.03 93.98 180)
@@ -961,6 +992,17 @@
 			(justify right)
 		)
 		(uuid "5234f3ea-1044-48b2-8db2-8e50505574ee")
+	)
+	(hierarchical_label "DIO3"
+		(shape input)
+		(at 138.43 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94f925ba-9e66-47e6-b1b8-b4d6c5d68fa3")
 	)
 	(hierarchical_label "SCK"
 		(shape input)
