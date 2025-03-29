@@ -224,6 +224,14 @@
 					(hide yes)
 				)
 			)
+			(property "Manufacturer_Part_Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "Ra-02 LoRa"
 				(at 0 0 0)
 				(effects
@@ -357,25 +365,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1248,9 +1237,6 @@
 		)
 		(pin "5"
 			(uuid "1331933f-4570-4a90-9dcc-a62891690b9c")
-		)
-		(pin "1"
-			(uuid "c4c39ee8-82b5-4f28-b97f-aad30d77a2ce")
 		)
 		(pin "7"
 			(uuid "2019b94a-457b-4be1-aaa1-7be1972d9177")

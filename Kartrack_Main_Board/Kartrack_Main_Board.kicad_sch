@@ -723,16 +723,6 @@
 				(justify left)
 			)
 		)
-		(pin "PIO_SPI2_NSS" input
-			(at 241.3 68.58 180)
-			(uuid "4985f4ff-ed73-4484-be53-0c9e09c664bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PC6_TX" input
 			(at 241.3 109.22 180)
 			(uuid "2b388fb7-2045-4d67-bf7a-87c930d812fa")
@@ -793,59 +783,9 @@
 				(justify left)
 			)
 		)
-		(pin "PA8" input
-			(at 241.3 101.6 180)
-			(uuid "45a324ec-d808-4407-81da-804aabfa694f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PA15" input
-			(at 241.3 104.14 180)
-			(uuid "ad44f430-05fa-476a-9165-002d8773a9cb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PI3" input
 			(at 241.3 73.66 180)
 			(uuid "64c636db-3ae4-404e-abbd-f4a870aa8f56")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PG6" input
-			(at 241.3 76.2 180)
-			(uuid "8d0fc1bc-d396-4a45-b5a3-21ff3bc364c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PG7" input
-			(at 241.3 78.74 180)
-			(uuid "0a253594-6a8d-4137-abef-217842c05d62")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PI2" input
-			(at 241.3 81.28 180)
-			(uuid "72dae4eb-5f0d-4da7-b12c-a00d8dccdbba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,9 +803,9 @@
 				(justify left)
 			)
 		)
-		(pin "PF6_STBY_GPS" input
-			(at 241.3 106.68 180)
-			(uuid "3e504c1b-ce2c-4ad5-94d0-1b3bb5dd9fe0")
+		(pin "PF8_LORA_RST" input
+			(at 241.3 86.36 180)
+			(uuid "69389614-7f33-4eec-8654-4643bd3dd649")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,9 +813,69 @@
 				(justify left)
 			)
 		)
-		(pin "PF8_LORA_RST" input
-			(at 241.3 86.36 180)
-			(uuid "69389614-7f33-4eec-8654-4643bd3dd649")
+		(pin "PG6_STBY_GPS" input
+			(at 241.3 106.68 180)
+			(uuid "34222662-f7cb-4ee0-896c-474dab90ef7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA8" input
+			(at 241.3 81.28 180)
+			(uuid "b7dcd2de-99a4-47bd-bdc5-a333bc10d34a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PIO_SPI2_NSS" input
+			(at 241.3 68.58 180)
+			(uuid "90048035-130e-4231-aa0f-ed6402a5d86d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PF6" input
+			(at 241.3 104.14 180)
+			(uuid "02dfe989-a5df-49d2-8473-26634a6b72b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA15" input
+			(at 241.3 78.74 180)
+			(uuid "52b0aacc-1f72-4ef6-9149-6024a6fc7ca9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PI2" input
+			(at 241.3 76.2 180)
+			(uuid "d6f4f8a3-1737-42ff-b9e6-882bb23ed283")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG7" input
+			(at 241.3 101.6 180)
+			(uuid "0dd69c6c-2fb6-4e0c-8620-380f8c87e8e7")
 			(effects
 				(font
 					(size 1.27 1.27)
