@@ -2559,12 +2559,6 @@
 		(uuid "769eb181-f235-41e8-af9a-e2bfa698fc72")
 	)
 	(junction
-		(at 240.03 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11111378-2bc3-40d0-96b3-e525d2f62ca1")
-	)
-	(junction
 		(at 34.29 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2601,16 +2595,16 @@
 		(uuid "4d77ce0c-5351-4f77-87f8-53f18e22383e")
 	)
 	(junction
-		(at 260.35 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57780d82-6af8-4d39-b57a-2e9befb6c550")
-	)
-	(junction
 		(at 270.51 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "680db522-5747-4ca0-8a9a-1ac911ed12e1")
+	)
+	(junction
+		(at 260.35 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d732f8b-4726-4288-a469-7d6607d37cdf")
 	)
 	(junction
 		(at 156.21 71.12)
@@ -2619,10 +2613,10 @@
 		(uuid "81980d08-1e90-410b-81af-3345807513d5")
 	)
 	(junction
-		(at 250.19 71.12)
+		(at 240.03 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9fa2b76d-690f-4244-877b-92d1b9287575")
+		(uuid "89df1c17-2eb6-4e5f-a7d1-9dc4356fe476")
 	)
 	(junction
 		(at 144.78 71.12)
@@ -2962,16 +2956,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 78.74) (xy 250.19 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b53e675-2479-4396-b940-ef306fde7510")
-	)
-	(wire
-		(pts
 			(xy 156.21 86.36) (xy 156.21 90.17)
 		)
 		(stroke
@@ -3042,13 +3026,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 71.12) (xy 260.35 71.12)
+			(xy 240.03 71.12) (xy 260.35 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e319aaa-ea21-4300-ba45-2c79dba89c92")
+		(uuid "80142091-e055-4227-91c3-9e7ed979608e")
 	)
 	(wire
 		(pts
@@ -3212,16 +3196,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 71.12) (xy 250.19 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b18b78fc-b619-40aa-bdd7-a1dda670361e")
-	)
-	(wire
-		(pts
 			(xy 177.8 71.12) (xy 177.8 72.39)
 		)
 		(stroke
@@ -3299,16 +3273,6 @@
 			(type default)
 		)
 		(uuid "de9e9780-3ee8-4106-8828-29ed5337e6b3")
-	)
-	(wire
-		(pts
-			(xy 240.03 71.12) (xy 250.19 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df53d131-5203-4a20-842b-79056d95d0ee")
 	)
 	(wire
 		(pts
@@ -3392,16 +3356,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 78.74) (xy 250.19 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f98c7520-476e-4594-9a0b-ca2af275f50e")
-	)
-	(wire
-		(pts
 			(xy 144.78 77.47) (xy 144.78 81.28)
 		)
 		(stroke
@@ -3409,6 +3363,16 @@
 			(type default)
 		)
 		(uuid "fea67114-3db8-4345-a677-0e6599f62eff")
+	)
+	(label "vsw"
+		(at 220.98 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d67b0a4-848b-4b12-b5bd-0418b241896b")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5854,83 +5818,6 @@
 			(project "Kartrack_Main_Board"
 				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/d88ecda6-398d-4f12-9194-bca3a51054e2"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 250.19 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad400a59-b4aa-4f81-8ed5-293402845f8b")
-		(property "Reference" "C9"
-			(at 251.714 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15pf"
-			(at 250.19 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 250.19 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 250.19 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 250.19 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3c37b69a-69f9-4c17-83ff-30d0a6ae54b1")
-		)
-		(pin "1"
-			(uuid "0f587127-d27f-4816-af32-14b085ce7106")
-		)
-		(instances
-			(project ""
-				(path "/7d0ecb76-dd3a-488e-b45e-ae217463e751/d88ecda6-398d-4f12-9194-bca3a51054e2"
-					(reference "C9")
 					(unit 1)
 				)
 			)
