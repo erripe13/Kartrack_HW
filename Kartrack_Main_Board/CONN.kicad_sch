@@ -2327,16 +2327,8 @@
 		(uuid "2b3d4a68-f86b-49e9-bbe8-e8bb9a9d0814")
 	)
 	(no_connect
-		(at 201.93 101.6)
-		(uuid "37c2d747-78a8-43f5-a62d-c256b5776c1c")
-	)
-	(no_connect
 		(at 201.93 86.36)
 		(uuid "56a968cd-c917-4f5b-ba01-4d01adb798ee")
-	)
-	(no_connect
-		(at 201.93 100.33)
-		(uuid "fd044942-5425-4dd5-b3a7-23236d0dc3ba")
 	)
 	(wire
 		(pts
@@ -2809,6 +2801,17 @@
 			(justify left)
 		)
 		(uuid "08cead03-86f2-45d7-b76b-63675bd32f0e")
+	)
+	(hierarchical_label "PF7_ADC_BATT"
+		(shape input)
+		(at 201.93 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b68312a-cc1a-4062-bb6e-b3496007cebe")
 	)
 	(hierarchical_label "PF10_BT3"
 		(shape input)
