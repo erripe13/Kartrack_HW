@@ -529,7 +529,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Kartrack_Main_Board.step",
       "svg": "",
       "vrml": ""
     },
