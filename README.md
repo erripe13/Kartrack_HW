@@ -19,11 +19,11 @@ Le système est alimenté à partir de **deux batteries 18650** montées en **pa
 
 Le PCB a été conçu dans une logique de prototypage rapide :
 - **Réduction du temps de conception** en réutilisant une carte STM32 existante (la DISCO) plutôt qu’un microcontrôleur nu.
-- Embarque les capteurs suivants :
-  - LoRa RA-01 (SPI)
-  - GPS Quectel L76 (UART)
-  - ICM-42605 (I²C)
-  - 
+- Embarque les modules suivants :
+  - LoRa : RA-01 (SPI). Le Lora nous permet de couvrir un grand espace de communication (Piste de Karting) sans passer par le réseau GSM et a faible conso.
+  - GPS : Quectel L76 (UART). La grande contrainte du GPS est sa fréquence élevée d'aquisition, ici 5Hz. La norme des GPS est de 1Hz, mais pour un kart à 60km sur une piste de 1000m la norme n'est pas suffisante.
+  - Gyroscope : ICM-42605 (I²C). Le gyroscope nous permet d'ajouter une donnée en plus à notre pilote. Ici le gyro est réglé sur la mesure la plus rapide, l'accélaration la plus élevée (16G). En cas d'accident cette donnée peut être des plus intéréssante.  
+     
 ---
 
 ## À venir
